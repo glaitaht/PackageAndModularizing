@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330A50F72BBC983B002FAA82 /* CoreViews in Frameworks */ = {isa = PBXBuildFile; productRef = 330A50F62BBC983B002FAA82 /* CoreViews */; };
 		33605BED2BBC1BBA008E4AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605BEC2BBC1BBA008E4AFA /* AppDelegate.swift */; };
 		33605BEF2BBC1BBA008E4AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605BEE2BBC1BBA008E4AFA /* SceneDelegate.swift */; };
 		33605BF12BBC1BBA008E4AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605BF02BBC1BBA008E4AFA /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330A50F72BBC983B002FAA82 /* CoreViews in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 			);
 			name = PackageAndModularizing;
 			packageProductDependencies = (
+				330A50F62BBC983B002FAA82 /* CoreViews */,
 			);
 			productName = PackageAndModularizing;
 			productReference = 33605BE92BBC1BBA008E4AFA /* PackageAndModularizing.app */;
@@ -380,6 +383,13 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		330A50F62BBC983B002FAA82 /* CoreViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreViews;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 33605BE12BBC1BBA008E4AFA /* Project object */;
 }
