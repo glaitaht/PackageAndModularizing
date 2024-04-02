@@ -6,14 +6,14 @@
 //
 
 import UIKit
+import CoreViews
 
-class ViewController: UIViewController {
+class ViewController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("ViewController oluşturuldu.")
     }
-
 
 }
 
